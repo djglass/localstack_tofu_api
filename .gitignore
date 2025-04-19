@@ -14,7 +14,10 @@ __pycache__/
 # MacOS
 .DS_Store
 
-# Other
+#Other
+response.json
+.venv/
 .env
 EOF
 
+lambda/*.zip
