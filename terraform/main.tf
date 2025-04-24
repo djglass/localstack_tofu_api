@@ -39,6 +39,10 @@ resource "aws_lambda_function" "demo_lambda" {
   handler       = "lambda_function.lambda_handler"
   runtime       = "python3.9"
   role          = "arn:aws:iam::000000000000:role/lambda-role"
+<<<<<<< HEAD
+=======
+  timeout       = 300
+>>>>>>> 7bdd6d4 (working commit)
   source_code_hash = filebase64sha256("../lambda/lambda_function_payload.zip")
 }
 

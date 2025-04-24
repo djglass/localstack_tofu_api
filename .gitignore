@@ -1,3 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Lambda artifacts
+lambda/*.zip
+
+# Local testing
+response.json
+*.log
+*.bak
+.DS_Store
+
+# VS Code (optional)
+.vscode/
+
+
 cat > .gitignore <<EOF
 # Terraform
 .terraform/
